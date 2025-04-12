@@ -4,7 +4,7 @@ import TourCard from './tourcard';
 function Gallery({ tours, onRemove }) {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-
+//fetched and rendered with use effect and state
   useEffect(() => {
     fetch("https://course-api.com/react-tours-project")
       .then(response => response.json())
