@@ -34,5 +34,5 @@ function Gallery({ tours, onRemove }) {
     </div>
   );
 }
-
+//styles edited
 export default Gallery;
