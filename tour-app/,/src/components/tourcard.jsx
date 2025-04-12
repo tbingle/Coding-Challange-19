@@ -6,7 +6,7 @@ function TourCard({ id, name, info, price, image, onRemove }) {
   const handleReadMore = () => {
     setReadMore(!readMore);
   };
-
+//errors
   return (
     <div className="tour-card">
       <img src={image} alt={name} className="tour-image" />
