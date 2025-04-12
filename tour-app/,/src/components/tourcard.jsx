@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+//built the card with rendering and interaction 
 function TourCard({ id, name, info, price, image, onRemove }) {
   const [readMore, setReadMore] = useState(false);
 
