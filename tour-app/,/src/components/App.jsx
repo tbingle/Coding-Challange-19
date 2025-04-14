@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Gallery from './Gallery';
+import Gallery from './gallery';
 import './styles.css';
 
 function App() {
